@@ -5,3 +5,4 @@
 /releng/modules/frida-gadget-ios/node_modules
 /subprojects/*
 .python-version
+/dist/*
