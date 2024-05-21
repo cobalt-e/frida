@@ -1,15 +1,15 @@
 [submodule "frida-gum"]
 	path = subprojects/frida-gum
-	url = https://github.com/frida/frida-gum.git
+	url = https://github.com/cobalt-e/frida-gum.git
 [submodule "frida-core"]
 	path = subprojects/frida-core
-	url = https://github.com/frida/frida-core.git
+	url = https://github.com/cobalt-e/frida-core.git
 [submodule "frida-python"]
 	path = subprojects/frida-python
-	url = https://github.com/frida/frida-python.git
+	url = https://github.com/cobalt-e/frida-python.git
 [submodule "frida-node"]
 	path = subprojects/frida-node
-	url = https://github.com/frida/frida-node.git
+	url = https://github.com/cobalt-e/frida-node.git
 [submodule "frida-swift"]
 	path = subprojects/frida-swift
 	url = https://github.com/frida/frida-swift.git
