@@ -235,7 +235,7 @@ def push_changes(name: str, repo: Path):
 def ensure_remote_origin_writable(name: str, repo: Path):
     if "https:" in run(["git", "remote", "show", "origin", "-n"], cwd=repo).stdout:
         run(["git", "remote", "rm", "origin"], cwd=repo)
-        run(["git", "remote", "add", "origin", f"git@github.com:frida/{name}.git"], cwd=repo)
+        run(["git", "remote", "add", "origin", f"git@github.com:cobalt-e/{name}.git"], cwd=repo)
         run(["git", "fetch", "origin"], cwd=repo)
 
 
